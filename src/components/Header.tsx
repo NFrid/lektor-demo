@@ -7,7 +7,7 @@ interface HeaderProps {}
 const Header: React.FC<HeaderProps> = () => (
   <div className="Header">
     <a className="logo" href="/">
-      Lektor Demo
+      Vercel Demo
     </a>
     <SectionsMenu />
   </div>
