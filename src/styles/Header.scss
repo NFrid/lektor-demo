@@ -1,0 +1,53 @@
+@import './colors.scss';
+
+.Header {
+  position: sticky; top: 0;
+  z-index: 5;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: $gray-dark;
+  
+  ul {
+    li {
+      display: inline-block;
+      margin: 0 0.5em;
+    }
+
+    list-style: none;
+  }
+
+  .logo {
+    margin: 0.5rem;
+    color: $green;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li > a {
+    padding: 1rem 0;
+  }
+
+  .toggle-trans {
+    padding: 1rem;
+
+    font-family: monospace;
+    font-size: 1.2em;
+    user-select: none;
+  }
+
+  img {
+    width: 2rem;
+  }
+}

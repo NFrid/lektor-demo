@@ -1,0 +1,46 @@
+@import './styles/colors.scss';
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Verdana, Helvetica, Arial,
+    Ubuntu, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: $white;
+  background-color: $gray;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: $yellow;
+  transition: 0.25s ease color;
+
+  &:hover {
+    color: $purple;
+  }
+}
+
+.Active {
+  color: $green;
+
+  &:hover {
+    color: $orange;
+  }
+}
