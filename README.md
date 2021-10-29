@@ -1,3 +1,3 @@
-# Demo for Lektor CD presentation
+# Demo for Vercel CD presentation
 
 ![meme school](./meme.png)
